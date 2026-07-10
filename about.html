@@ -3,178 +3,199 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Us — SunRoot Foundation</title>
-<meta name="description" content="Learn about SunRoot Foundation's history, mission, vision, core values, and the team building clean energy access in Ghana's Western Region.">
+<title>Projects &amp; Programs | EcoRise Foundation</title>
+<meta name="description" content="Explore EcoRise Foundation's environmental and community development projects, from tree planting to solar energy access.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="credit-bar">SunRoot Foundation &middot; Student Project by [YOUR NAME] &middot; Index No. [YOUR INDEX NUMBER] &middot; WebTech &amp; Concept Mid-Semester Exams 2026</div>
+<!-- Name: [Your Full Name]  |  Index Number: [Your Index Number] -->
 
 <header class="site-header">
-  <div class="nav-wrap">
+  <nav class="navbar" aria-label="Primary navigation">
     <a href="index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>SunRoot<br><small>Foundation</small></span>
+      <span class="brand-icon"><i class="fa-solid fa-seedling"></i></span>
+      <span>EcoRise <small>Foundation</small></span>
     </a>
-    <input type="checkbox" id="nav-toggle" class="hamburger">
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">&#9776;</label>
-    <nav class="main-nav" aria-label="Primary">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" aria-current="page">About Us</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="volunteer.html">Volunteer</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="nav-cta">
-      <a href="donate.html" class="btn btn-primary"><span>Donate</span> &rarr;</a>
-    </div>
-  </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html" class="nav-cta">Donate</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main>
 
-  <section class="page-hero">
+  <section class="page-banner">
     <div class="container">
-      <p class="breadcrumb">Home / About Us</p>
-      <h1>Eight years of building energy access, together.</h1>
-      <p>The story, principles, and people behind SunRoot Foundation.</p>
+      <h1>Our Projects &amp; Programs</h1>
+      <p>Six active programmes turning environmental commitment into measurable impact.</p>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Projects</p>
     </div>
   </section>
 
-  <!-- HISTORY -->
-  <section class="section">
+  <!-- ============ Projects Grid ============ -->
+  <section>
     <div class="container">
-      <div class="layout-with-aside">
+      <div class="card-grid">
+
+        <article class="card">
+          <img src="images/tree-plant.jpg" alt="Volunteers planting rows of tree seedlings on a restored hillside">
+          <div class="card-body">
+            <span class="card-tag">Reforestation</span>
+            <h3>1. Tree Planting Campaign</h3>
+            <p>A community-led reforestation effort restoring degraded farmland and watersheds through native tree species, seedling nurseries, and long-term forest stewardship training.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Ashanti Region</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/clean_water.jpg" alt="A new borehole providing clean water to a rural village">
+          <div class="card-body">
+            <span class="card-tag">Water &amp; Sanitation</span>
+            <h3>2. Clean Water for Communities</h3>
+            <p>Drilling boreholes and installing filtration systems to provide safe, reliable drinking water while training local technicians in system maintenance.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Northern Region</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/plastic.jpg" alt="Sorted plastic waste ready for recycling at a community collection centre">
+          <div class="card-body">
+            <span class="card-tag">Waste Management</span>
+            <h3>3. Plastic Recycling Program</h3>
+            <p>Community collection points and a local processing hub that turn plastic waste into reusable materials, reducing pollution and creating green jobs.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Greater Accra Region</span>
+              <span class="status-pill status-complete">Phase 1 Complete</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/solar.webp" alt="Solar panel micro-grid installation in an off-grid village">
+          <div class="card-body">
+            <span class="card-tag">Renewable Energy</span>
+            <h3>4. Solar Energy for Villages</h3>
+            <p>Installing affordable solar micro-grids to bring reliable electricity to off-grid communities, powering homes, schools, and health clinics.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Volta Region</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/climate.jpg" alt="A community workshop on climate change awareness">
+          <div class="card-body">
+            <span class="card-tag">Climate Education</span>
+            <h3>5. Climate Awareness Outreach</h3>
+            <p>School and community workshops that build understanding of climate change causes, impacts, and practical local adaptation strategies.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Nationwide</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/green-school.jpg" alt="Students tending a school garden as part of a green schools programme">
+          <div class="card-body">
+            <span class="card-tag">Community Development</span>
+            <h3>6. Green Schools Initiative</h3>
+            <p>Helping schools build gardens, waste-sorting systems, and eco-clubs that teach students sustainable habits from an early age.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Western Region</span>
+              <span class="status-pill status-complete">15 Schools Enrolled</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Impact Summary Table ============ -->
+  <section class="bg-tint">
+    <div class="container">
+      <div class="section-heading center">
+        <span class="section-eyebrow">By the Numbers</span>
+        <h2>Programme Impact Summary</h2>
+      </div>
+      <table class="data-table">
+        <caption>Overview of current programme reach and status</caption>
+        <thead>
+          <tr>
+            <th scope="col">Project</th>
+            <th scope="col">Location</th>
+            <th scope="col">Beneficiaries</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tree Planting Campaign</td>
+            <td>Ashanti Region</td>
+            <td>8,200 residents</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Clean Water for Communities</td>
+            <td>Northern Region</td>
+            <td>5,400 residents</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Plastic Recycling Program</td>
+            <td>Greater Accra Region</td>
+            <td>3,100 households</td>
+            <td><span class="status-pill status-complete">Phase 1 Complete</span></td>
+          </tr>
+          <tr>
+            <td>Solar Energy for Villages</td>
+            <td>Volta Region</td>
+            <td>1,850 households</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Climate Awareness Outreach</td>
+            <td>Nationwide</td>
+            <td>12,000 students</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Green Schools Initiative</td>
+            <td>Western Region</td>
+            <td>15 schools</td>
+            <td><span class="status-pill status-complete">Enrolled</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-banner">
         <div>
-          <p class="eyebrow">Our history</p>
-          <h2>From one broken streetlight to 38 communities</h2>
-          <p>SunRoot Foundation began in 2018 when a small group of engineering graduates from the Western Region returned to their home town of Anlo Beach to find it still without reliable electricity, 61 years after independence. What started as a single solar-powered streetlight, funded from personal savings, grew into a full community microgrid within a year.</p>
-          <p>Word spread along the coast. By 2020 we had registered as a formal NGO and expanded into clean cookstoves and school electrification. Today, SunRoot works across 38 communities in the Western and Western North Regions, with a growing waiting list of towns asking to partner with us next.</p>
-          <p>We remain proudly community-first: every project is co-designed with the people who will maintain it long after our engineers have moved to the next site.</p>
+          <h2>Want to support a specific project?</h2>
+          <p>Your donation directly funds the programmes above.</p>
         </div>
-        <aside class="callout">
-          <h3>Why we exist</h3>
-          <ul>
-            <li>Grid expansion in rural coastal Ghana is slow and often bypasses smaller fishing and farming towns.</li>
-            <li>Off-grid solar is now cheaper than waiting years for grid connection.</li>
-            <li>Communities that own and maintain their own systems keep the lights on long-term.</li>
-          </ul>
-        </aside>
-      </div>
-    </div>
-  </section>
-
-  <!-- VISION / MISSION / VALUES -->
-  <section class="section section-alt">
-    <div class="container">
-      <div class="section-head center">
-        <p class="eyebrow">What drives us</p>
-        <h2>Vision, mission &amp; the values behind every install</h2>
-        <div class="horizon-rule"></div>
-      </div>
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="card-body">
-            <span class="tag">Vision</span>
-            <h3>A Ghanaian coast fully lit by clean power</h3>
-            <p>A future where no coastal or rural community in Ghana waits for the national grid to access safe, reliable, renewable energy.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <span class="tag">Mission</span>
-            <h3>Build it with, not for, communities</h3>
-            <p>We design, install, and hand over solar and clean-energy infrastructure that communities own, operate, and maintain themselves.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <span class="tag">Approach</span>
-            <h3>Train technicians before we leave</h3>
-            <p>Every SunRoot project includes a local technician training track, so skills — not just hardware — stay behind after we scale back.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid grid-4" style="margin-top:40px;">
-        <div class="card"><div class="card-body">
-          <h3 style="font-size:1rem;">Community Ownership</h3>
-          <p style="font-size:0.9rem;">Projects belong to the people who use them, not to SunRoot.</p>
-        </div></div>
-        <div class="card"><div class="card-body">
-          <h3 style="font-size:1rem;">Transparency</h3>
-          <p style="font-size:0.9rem;">Every donation and its use is reported back to donors and communities alike.</p>
-        </div></div>
-        <div class="card"><div class="card-body">
-          <h3 style="font-size:1rem;">Durability</h3>
-          <p style="font-size:0.9rem;">We install for a 25-year lifespan, not a photo opportunity.</p>
-        </div></div>
-        <div class="card"><div class="card-body">
-          <h3 style="font-size:1rem;">Local Skill</h3>
-          <p style="font-size:0.9rem;">Hiring and training local technicians is never optional.</p>
-        </div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- OBJECTIVES -->
-  <section class="section">
-    <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">Our objectives</p>
-        <h2>What we're working toward by 2030</h2>
-        <div class="horizon-rule"></div>
-      </div>
-      <ul class="grid grid-2" style="list-style:none;">
-        <li class="card"><div class="card-body"><h3 style="font-size:1rem;">01 &middot; Reach 75 communities</h3><p style="font-size:0.9rem;">Nearly double our current footprint across the Western and Western North Regions.</p></div></li>
-        <li class="card"><div class="card-body"><h3 style="font-size:1rem;">02 &middot; Train 500 technicians</h3><p style="font-size:0.9rem;">Build a regional workforce capable of maintaining every system we install.</p></div></li>
-        <li class="card"><div class="card-body"><h3 style="font-size:1rem;">03 &middot; Electrify 100 schools</h3><p style="font-size:0.9rem;">Extend our School Solar Lab Program to every off-grid school in our operating area.</p></div></li>
-        <li class="card"><div class="card-body"><h3 style="font-size:1rem;">04 &middot; Cut 5,000 tonnes of CO&#8322;</h3><p style="font-size:0.9rem;">Through solar displacement of diesel generators and kerosene lighting.</p></div></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- LEADERSHIP -->
-  <section class="section section-alt">
-    <div class="container">
-      <div class="section-head center">
-        <p class="eyebrow">Leadership</p>
-        <h2>The team steering SunRoot</h2>
-        <div class="horizon-rule"></div>
-      </div>
-      <div class="grid grid-4">
-        <div class="card">
-          <img src="https://picsum.photos/id/1005/400/400" alt="Portrait of Nana Ama Boateng">
-          <div class="card-body">
-            <h3 style="font-size:1rem;">Nana Ama Boateng</h3>
-            <p style="font-size:0.85rem;">Executive Director &amp; Co-Founder</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/id/1012/400/400" alt="Portrait of Kwabena Mensah">
-          <div class="card-body">
-            <h3 style="font-size:1rem;">Kwabena Mensah</h3>
-            <p style="font-size:0.85rem;">Head of Engineering</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/id/1027/400/400" alt="Portrait of Efua Danquah">
-          <div class="card-body">
-            <h3 style="font-size:1rem;">Efua Danquah</h3>
-            <p style="font-size:0.85rem;">Community Programs Lead</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/id/1074/400/400" alt="Portrait of Yaw Osei">
-          <div class="card-body">
-            <h3 style="font-size:1rem;">Yaw Osei</h3>
-            <p style="font-size:0.85rem;">Training &amp; Technician Lead</p>
-          </div>
-        </div>
+        <a href="donate.html" class="btn btn-primary">Donate Now</a>
       </div>
     </div>
   </section>
@@ -182,52 +203,49 @@
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand" style="color:#fff;">
-          <span class="brand-mark" aria-hidden="true"></span>
-          <span>SunRoot<br><small>Foundation</small></span>
-        </a>
-        <p>Clean power, rooted in community. We build solar and clean-energy solutions with off-grid communities across Ghana's Western Region.</p>
-        <div class="social-row">
-          <a href="#" aria-label="Facebook">f</a>
-          <a href="#" aria-label="X / Twitter">x</a>
-          <a href="#" aria-label="Instagram">ig</a>
-          <a href="#" aria-label="LinkedIn">in</a>
-        </div>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Take Action</h4>
-        <ul>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="volunteer.html">Become a Volunteer</a></li>
-          <li><a href="contact.html">Partner With Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <ul>
-          <li>Effia-Kuma Estate Rd, Takoradi</li>
-          <li>+233 24 555 0192</li>
-          <li>hello@sunrootgh.org</li>
-        </ul>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"><i class="fa-solid fa-seedling"></i></span>
+        <span>EcoRise <small>Foundation</small></span>
+      </a>
+      <p>A non-governmental organisation dedicated to environmental sustainability, clean energy, and community development across Ghana.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>&copy; 2026 SunRoot Foundation. A fictional NGO created for academic purposes.</span>
-      <span>Built with HTML5 &amp; CSS3 &mdash; no frameworks.</span>
+    <nav class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+        <li><a href="projects.html"><i class="fa-solid fa-chevron-right"></i> Projects</a></li>
+        <li><a href="gallery.html"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+        <li><a href="volunteer.html"><i class="fa-solid fa-chevron-right"></i> Volunteer</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col">
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="donate.html"><i class="fa-solid fa-chevron-right"></i> Donate</a></li>
+        <li><a href="volunteer.html"><i class="fa-solid fa-chevron-right"></i> Volunteer</a></li>
+        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-location-dot"></i> 12 Greenfield Road, Takoradi</a></li>
+        <li><a href="tel:+233554947884"><i class="fa-solid fa-phone"></i> +233 55 494 7884</a></li>
+        <li><a href="mailto:info@ecorisefoundation.org"><i class="fa-solid fa-envelope"></i> info@ecorisefoundation.org</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 EcoRise Foundation. All rights reserved.</p>
+    <p>Design &amp; Development Mid-Semester Project — Takoradi Technical University</p>
   </div>
 </footer>
 

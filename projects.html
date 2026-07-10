@@ -3,109 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects & Programs — SunRoot Foundation</title>
-<meta name="description" content="Explore SunRoot Foundation's active clean energy projects, from solar microgrids to clean cookstoves and school electrification.">
+<title>Projects &amp; Programs | EcoRise Foundation</title>
+<meta name="description" content="Explore EcoRise Foundation's environmental and community development projects, from tree planting to solar energy access.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="credit-bar">SunRoot Foundation &middot; Student Project by [YOUR NAME] &middot; Index No. [YOUR INDEX NUMBER] &middot; WebTech &amp; Concept Mid-Semester Exams 2026</div>
+<!-- Name: [Your Full Name]  |  Index Number: [Your Index Number] -->
 
 <header class="site-header">
-  <div class="nav-wrap">
+  <nav class="navbar" aria-label="Primary navigation">
     <a href="index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>SunRoot<br><small>Foundation</small></span>
+      <span class="brand-icon"><i class="fa-solid fa-seedling"></i></span>
+      <span>EcoRise <small>Foundation</small></span>
     </a>
-    <input type="checkbox" id="nav-toggle" class="hamburger">
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">&#9776;</label>
-    <nav class="main-nav" aria-label="Primary">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="projects.html" aria-current="page">Projects</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="volunteer.html">Volunteer</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="nav-cta">
-      <a href="donate.html" class="btn btn-primary"><span>Donate</span> &rarr;</a>
-    </div>
-  </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html" class="nav-cta">Donate</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main>
 
-  <section class="page-hero">
+  <section class="page-banner">
     <div class="container">
-      <p class="breadcrumb">Home / Projects</p>
-      <h1>Six programs, one goal: energy nobody has to wait for.</h1>
-      <p>Every project below is co-designed with the community it serves and handed over to local ownership.</p>
+      <h1>Our Projects &amp; Programs</h1>
+      <p>Six active programmes turning environmental commitment into measurable impact.</p>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Projects</p>
     </div>
   </section>
 
-  <section class="section">
+  <!-- ============ Projects Grid ============ -->
+  <section>
     <div class="container">
-      <div class="grid grid-3">
+      <div class="card-grid">
 
         <article class="card">
-          <img src="https://picsum.photos/id/1043/600/420" alt="Solar panel array installed on rooftops at Anlo Beach">
+          <img src="images/tree-plant.jpg" alt="Volunteers planting rows of tree seedlings on a restored hillside">
           <div class="card-body">
-            <span class="tag status-active">Active &middot; High Impact</span>
-            <h3>Anlo Beach Solar Microgrid</h3>
-            <p>A 12kW community-owned solar array powering 46 households and a shared fish cold-storage facility, replacing diesel generators.</p>
-            <div class="card-meta"><span>Anlo Beach</span><span>Since 2022</span></div>
+            <span class="card-tag">Reforestation</span>
+            <h3>1. Tree Planting Campaign</h3>
+            <p>A community-led reforestation effort restoring degraded farmland and watersheds through native tree species, seedling nurseries, and long-term forest stewardship training.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Ashanti Region</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://picsum.photos/id/292/600/420" alt="Efficient clean cookstove in use in an outdoor kitchen">
+          <img src="images/clean_water.jpg" alt="A new borehole providing clean water to a rural village">
           <div class="card-body">
-            <span class="tag status-active">Active</span>
-            <h3>Clean Cookstove Initiative</h3>
-            <p>Locally-manufactured efficient stoves that cut household firewood use and indoor smoke exposure by up to 60%.</p>
-            <div class="card-meta"><span>7 communities</span><span>Since 2020</span></div>
+            <span class="card-tag">Water &amp; Sanitation</span>
+            <h3>2. Clean Water for Communities</h3>
+            <p>Drilling boreholes and installing filtration systems to provide safe, reliable drinking water while training local technicians in system maintenance.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Northern Region</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://picsum.photos/id/338/600/420" alt="Students in a solar-powered school science laboratory">
+          <img src="images/plastic.jpg" alt="Sorted plastic waste ready for recycling at a community collection centre">
           <div class="card-body">
-            <span class="tag status-scaling">Scaling</span>
-            <h3>School Solar Lab Program</h3>
-            <p>Solar-powered ICT and science labs bringing computing and lab equipment to schools with no grid access.</p>
-            <div class="card-meta"><span>5 schools</span><span>Since 2023</span></div>
+            <span class="card-tag">Waste Management</span>
+            <h3>3. Plastic Recycling Program</h3>
+            <p>Community collection points and a local processing hub that turn plastic waste into reusable materials, reducing pollution and creating green jobs.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Greater Accra Region</span>
+              <span class="status-pill status-complete">Phase 1 Complete</span>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://picsum.photos/id/48/600/420" alt="Community members attending a technical training workshop">
+          <img src="images/solar.webp" alt="Solar panel micro-grid installation in an off-grid village">
           <div class="card-body">
-            <span class="tag status-active">Active</span>
-            <h3>Community Energy Training Hub</h3>
-            <p>A technician-training curriculum that certifies residents to install, monitor, and repair solar systems locally.</p>
-            <div class="card-meta"><span>Dixcove Hub</span><span>Since 2021</span></div>
+            <span class="card-tag">Renewable Energy</span>
+            <h3>4. Solar Energy for Villages</h3>
+            <p>Installing affordable solar micro-grids to bring reliable electricity to off-grid communities, powering homes, schools, and health clinics.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Volta Region</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://picsum.photos/id/177/600/420" alt="Irrigated farmland powered by a solar water pump">
+          <img src="images/climate.jpg" alt="A community workshop on climate change awareness">
           <div class="card-body">
-            <span class="tag status-scaling">Scaling</span>
-            <h3>Solar Water Pumping for Farms</h3>
-            <p>Solar-powered irrigation pumps giving smallholder farms reliable water access without diesel fuel costs.</p>
-            <div class="card-meta"><span>4 farming communities</span><span>Since 2024</span></div>
+            <span class="card-tag">Climate Education</span>
+            <h3>5. Climate Awareness Outreach</h3>
+            <p>School and community workshops that build understanding of climate change causes, impacts, and practical local adaptation strategies.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Nationwide</span>
+              <span class="status-pill status-ongoing">Ongoing</span>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://picsum.photos/id/1071/600/420" alt="Collection point for used batteries and electronic waste">
+          <img src="images/green-school.jpg" alt="Students tending a school garden as part of a green schools programme">
           <div class="card-body">
-            <span class="tag status-active">Pilot</span>
-            <h3>E-Waste &amp; Battery Recycling Drive</h3>
-            <p>Safe collection and recycling points for spent solar batteries and household electronic waste along the coast.</p>
-            <div class="card-meta"><span>3 collection points</span><span>Since 2025</span></div>
+            <span class="card-tag">Community Development</span>
+            <h3>6. Green Schools Initiative</h3>
+            <p>Helping schools build gardens, waste-sorting systems, and eco-clubs that teach students sustainable habits from an early age.</p>
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Western Region</span>
+              <span class="status-pill status-complete">15 Schools Enrolled</span>
+            </div>
           </div>
         </article>
 
@@ -113,63 +129,73 @@
     </div>
   </section>
 
-  <!-- SUMMARY TABLE -->
-  <section class="section-tight section-alt">
+  <!-- ============ Impact Summary Table ============ -->
+  <section class="bg-tint">
     <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">At a glance</p>
-        <h2>Project status summary</h2>
-        <div class="horizon-rule"></div>
+      <div class="section-heading center">
+        <span class="section-eyebrow">By the Numbers</span>
+        <h2>Programme Impact Summary</h2>
       </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">Project</th>
-              <th scope="col">Location</th>
-              <th scope="col">Status</th>
-              <th scope="col">Impact so far</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Anlo Beach Solar Microgrid</td>
-              <td>Anlo Beach</td>
-              <td>Active</td>
-              <td>46 households + cold storage powered</td>
-            </tr>
-            <tr>
-              <td>Clean Cookstove Initiative</td>
-              <td>7 communities</td>
-              <td>Active</td>
-              <td>1,200+ stoves distributed</td>
-            </tr>
-            <tr>
-              <td>School Solar Lab Program</td>
-              <td>5 schools</td>
-              <td>Scaling</td>
-              <td>2,100+ students with lab access</td>
-            </tr>
-            <tr>
-              <td>Community Energy Training Hub</td>
-              <td>Dixcove</td>
-              <td>Active</td>
-              <td>68 certified local technicians</td>
-            </tr>
-            <tr>
-              <td>Solar Water Pumping for Farms</td>
-              <td>4 farming communities</td>
-              <td>Scaling</td>
-              <td>190 acres under solar irrigation</td>
-            </tr>
-            <tr>
-              <td>E-Waste &amp; Battery Recycling Drive</td>
-              <td>3 collection points</td>
-              <td>Pilot</td>
-              <td>1.4 tonnes of e-waste safely processed</td>
-            </tr>
-          </tbody>
-        </table>
+      <table class="data-table">
+        <caption>Overview of current programme reach and status</caption>
+        <thead>
+          <tr>
+            <th scope="col">Project</th>
+            <th scope="col">Location</th>
+            <th scope="col">Beneficiaries</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tree Planting Campaign</td>
+            <td>Ashanti Region</td>
+            <td>8,200 residents</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Clean Water for Communities</td>
+            <td>Northern Region</td>
+            <td>5,400 residents</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Plastic Recycling Program</td>
+            <td>Greater Accra Region</td>
+            <td>3,100 households</td>
+            <td><span class="status-pill status-complete">Phase 1 Complete</span></td>
+          </tr>
+          <tr>
+            <td>Solar Energy for Villages</td>
+            <td>Volta Region</td>
+            <td>1,850 households</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Climate Awareness Outreach</td>
+            <td>Nationwide</td>
+            <td>12,000 students</td>
+            <td><span class="status-pill status-ongoing">Ongoing</span></td>
+          </tr>
+          <tr>
+            <td>Green Schools Initiative</td>
+            <td>Western Region</td>
+            <td>15 schools</td>
+            <td><span class="status-pill status-complete">Enrolled</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-banner">
+        <div>
+          <h2>Want to support a specific project?</h2>
+          <p>Your donation directly funds the programmes above.</p>
+        </div>
+        <a href="donate.html" class="btn btn-primary">Donate Now</a>
       </div>
     </div>
   </section>
@@ -177,52 +203,49 @@
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand" style="color:#fff;">
-          <span class="brand-mark" aria-hidden="true"></span>
-          <span>SunRoot<br><small>Foundation</small></span>
-        </a>
-        <p>Clean power, rooted in community. We build solar and clean-energy solutions with off-grid communities across Ghana's Western Region.</p>
-        <div class="social-row">
-          <a href="#" aria-label="Facebook">f</a>
-          <a href="#" aria-label="X / Twitter">x</a>
-          <a href="#" aria-label="Instagram">ig</a>
-          <a href="#" aria-label="LinkedIn">in</a>
-        </div>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Take Action</h4>
-        <ul>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="volunteer.html">Become a Volunteer</a></li>
-          <li><a href="contact.html">Partner With Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <ul>
-          <li>Effia-Kuma Estate Rd, Takoradi</li>
-          <li>+233 24 555 0192</li>
-          <li>hello@sunrootgh.org</li>
-        </ul>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"><i class="fa-solid fa-seedling"></i></span>
+        <span>EcoRise <small>Foundation</small></span>
+      </a>
+      <p>A non-governmental organisation dedicated to environmental sustainability, clean energy, and community development across Ghana.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>&copy; 2026 SunRoot Foundation. A fictional NGO created for academic purposes.</span>
-      <span>Built with HTML5 &amp; CSS3 &mdash; no frameworks.</span>
+    <nav class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+        <li><a href="projects.html"><i class="fa-solid fa-chevron-right"></i> Projects</a></li>
+        <li><a href="gallery.html"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+        <li><a href="volunteer.html"><i class="fa-solid fa-chevron-right"></i> Volunteer</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col">
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="donate.html"><i class="fa-solid fa-chevron-right"></i> Donate</a></li>
+        <li><a href="volunteer.html"><i class="fa-solid fa-chevron-right"></i> Volunteer</a></li>
+        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-location-dot"></i> 12 Greenfield Road, Takoradi</a></li>
+        <li><a href="tel:+233554947884"><i class="fa-solid fa-phone"></i> +233 55 494 7884</a></li>
+        <li><a href="mailto:info@ecorisefoundation.org"><i class="fa-solid fa-envelope"></i> info@ecorisefoundation.org</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 EcoRise Foundation. All rights reserved.</p>
+    <p>Design &amp; Development Mid-Semester Project — Takoradi Technical University</p>
   </div>
 </footer>
 
